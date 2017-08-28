@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Battlefield';
+  src: url(battlefield.ttf);
+}
+
+@font-face {
+	font-family: 'Dungeon';
+  src: url(dungeon.ttf);
+}
+
+body {
+	background-color: black;
+	color: white;
+	cursor: default;
+	font-family: 'Dungeon', sans-serif;
+}

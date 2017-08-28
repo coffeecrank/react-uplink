@@ -1,0 +1,99 @@
+#header {
+  background-color: #01087C;
+  height: 200px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#header-logo {
+	margin: 25px;
+  text-align: center;
+}
+
+#header-logo-local {
+  height: 80px;
+  left: -20px;
+  position: relative;
+}
+
+#header-logo-circle {
+	left: -105px;
+  position: relative;
+  -webkit-animation: logo-animation infinite 1s linear;
+  animation: logo-animation infinite 1s linear;
+}
+
+@-webkit-keyframes logo-animation {
+  0% {
+    left: -105px;
+  }
+  20% {
+    left: -86px;
+  }
+  40% {
+    left: -67px;
+  }
+  60% {
+    left: -48px;
+  }
+  80% {
+    left: -29px;
+  }
+  100% {
+    left: -10px;
+  }
+}
+
+@keyframes logo-animation {
+  0% {
+    left: -105px;
+  }
+  20% {
+    left: -86px;
+  }
+  40% {
+    left: -67px;
+  }
+  60% {
+    left: -48px;
+  }
+  80% {
+    left: -29px;
+  }
+  100% {
+    left: -10px;
+  }
+}
+
+#header-logo-server {
+  height: 80px;
+  left: 15px;
+  position: relative;
+}
+
+#header-ip {
+  font-weight: bold;
+  padding-right: 15px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+
+#header-title {
+  font-family: 'Battlefield', sans-serif;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#header-footer {
+  background-color: #4169E1;
+  height: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 200px;
+  width: 100%;
+  z-index: 1;
+}

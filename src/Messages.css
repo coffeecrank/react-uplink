@@ -1,0 +1,77 @@
+#messages {
+	position: relative;
+	top: 210px;
+	width: 100%;
+}
+
+#messages-table {
+	font-size: 20px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	width: 60%;
+}
+
+#messages-table thead, #messages-table tfoot {
+	font-size: 25px;
+}
+
+#messages-table tbody tr, #messages-table tfoot tr {
+	height: 100px;
+}
+
+#messages-table tbody td, #messages-table tfoot td {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#messages-table tfoot {
+	text-align: center;
+	background-color: black;
+}
+
+#messages-table tbody td img {
+	margin: 10px;
+}
+
+#messages-table {
+	background-color: #020DC4;
+}
+
+#messages-table tbody tr:nth-child(odd) {
+	background-color: #01087C;
+}
+
+#messages-table tbody tr:hover {
+	background-color: royalblue;
+}
+
+.message-new, .message-old, .message-delete {
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+}
+
+.popup {
+	background-color: black;
+	border: 1px solid white;
+	font-size: 20px;
+	height: 300px;
+	left: 36%;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	visibility: hidden;
+	width: 500px;
+	z-index: 2;
+}
+
+.popup-visible {
+	visibility: visible;
+}
+
+.popup p {
+	position: relative;
+	top: 100px;
+}
